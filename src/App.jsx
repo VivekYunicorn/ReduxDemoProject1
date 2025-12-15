@@ -14,8 +14,7 @@ function App() {
     } else {
       dispatch(clearUsers());
     }
-    setToggle(!toggle); // toggle state change
-  };
+    setToggle(!toggle); 
 
   return (
     <div style={{ padding: "20px" }}>
